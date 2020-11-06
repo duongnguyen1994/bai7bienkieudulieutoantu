@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+    <link rel="stylesheet" href="styledoitien.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <th>Amount</th>
+                    <th>From Currency</th>
+                    <th>To Currency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" id="amount" name="amount">
+                    </td>
+                    <td>
+                        <select name="from" id="from">
+                            <option value="1">VND</option>
+                            <option value="2">USD</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="from" id="to">
+                            <option value="1">VND</option>
+                            <option value="2">USD</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button type="button" onclick="convert()">Convert</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p id="result">Result:</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+<script src="jsdoitien.js"></script>
