@@ -22,4 +22,3 @@ function div(){
     let Division = numb1 / numb2
     document.getElementById('result').innerHTML = Division
 }
-
