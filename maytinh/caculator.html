@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <thead>
+                <th><caption style="font-weight: 900;">Caculator</caption></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="num1" id="num1">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="num2" id="num2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="add()">Addition(+)</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="sub()">Subtraction(-)</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="mul()">Multiplication(X)</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="div()">Division(/)</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><textarea name="result" id="result" cols="7" rows="2">Kết quả</textarea></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+<script src="caljs.js"></script>

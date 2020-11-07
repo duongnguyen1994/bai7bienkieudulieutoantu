@@ -1,7 +1,7 @@
 function convert(){
-    let amount = parseInt(document.getElementById("amount").value)
-    let from = parseInt(document.getElementById("from").value)
-    let to = parseInt(document.getElementById("to").value)
+    let amount = parseFloat(document.getElementById("amount").value)
+    let from = parseFloat(document.getElementById("from").value)
+    let to = parseFloat(document.getElementById("to").value)
     let quydoi
     if (from == 2 & to ==1){
         quydoi = (amount * 24000)
